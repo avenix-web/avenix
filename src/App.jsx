@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div className="bg-background text-on-surface selection:bg-primary/30 font-body-md">
+    <div className="relative overflow-x-hidden bg-background text-on-surface selection:bg-primary/30 font-body-md">
       <ScrollProgress />
       <Navbar />
       
