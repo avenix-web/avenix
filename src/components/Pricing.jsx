@@ -42,9 +42,14 @@ export default function Pricing() {
               <span>Contact Form</span>
             </li>
           </ul>
-          <button className="w-full glass-card py-md rounded-xl font-label-md text-label-md hover:bg-white/10 transition-colors">
+          <a 
+            href="https://wa.me/919348250968?text=Hello%20Avenix%2C%20I%20am%20interested%20in%20the%20Starter%20Pack%20(₹5%2C000)%20for%20my%20business."
+            target="_blank"
+            rel="noreferrer"
+            className="w-full glass-card py-md rounded-xl font-label-md text-label-md hover:bg-white/10 transition-colors text-center block"
+          >
             Get Started
-          </button>
+          </a>
         </motion.div>
 
         {/* Pro Plan */}
@@ -83,9 +88,14 @@ export default function Pricing() {
               <span>Priority Support</span>
             </li>
           </ul>
-          <button className="w-full primary-gradient py-md rounded-xl font-label-md text-label-md text-white shadow-lg shadow-primary/25 hover:scale-[1.02] transition-transform">
+          <a 
+            href="https://wa.me/919348250968?text=Hello%20Avenix%2C%20I%20am%20interested%20in%20the%20Growth%20Pack%20(₹10%2C000)%20for%20my%20business."
+            target="_blank"
+            rel="noreferrer"
+            className="w-full primary-gradient py-md rounded-xl font-label-md text-label-md text-white shadow-lg shadow-primary/25 hover:scale-[1.02] transition-transform text-center block"
+          >
             Get Started
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
