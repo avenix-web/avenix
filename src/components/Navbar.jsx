@@ -18,7 +18,10 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-base max-w-full mx-auto h-20">
-        <a href="/" className="text-body-lg font-display-lg tracking-tighter text-on-surface hover:opacity-90 transition-opacity">AVENIX</a>
+        <a href="/" className="flex items-center gap-sm text-body-lg font-display-lg tracking-tighter text-on-surface hover:opacity-90 transition-opacity">
+          <img src="/logo.png" alt="Avenix Logo" className="h-8 w-8 object-contain" />
+          <span>AVENIX</span>
+        </a>
         <div className="hidden md:flex gap-lg items-center">
           <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#services">Services</a>
           <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#portfolio">Portfolio</a>
