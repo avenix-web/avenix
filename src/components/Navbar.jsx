@@ -18,12 +18,12 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-base max-w-full mx-auto h-20">
-        <div className="text-body-lg font-display-lg tracking-tighter text-on-surface">AVENIX</div>
+        <a href="/" className="text-body-lg font-display-lg tracking-tighter text-on-surface hover:opacity-90 transition-opacity">AVENIX</a>
         <div className="hidden md:flex gap-lg items-center">
-          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#services">Services</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#portfolio">Portfolio</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#process">Process</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#pricing">Pricing</a>
+          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#services">Services</a>
+          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#portfolio">Portfolio</a>
+          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#process">Process</a>
+          <a className="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="/#pricing">Pricing</a>
         </div>
         <a 
           href="https://wa.me/919348250968?text=Hey%20I%20need%20your%20service"
