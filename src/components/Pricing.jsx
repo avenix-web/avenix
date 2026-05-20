@@ -22,7 +22,7 @@ export default function Pricing() {
             <p className="text-on-surface-variant">Perfect for new local businesses.</p>
           </div>
           <div className="mb-lg">
-            <span className="font-display-lg text-display-lg">5,000/-</span>
+            <span className="font-display-lg text-display-lg">₹5,000</span>
           </div>
           <ul className="space-y-sm mb-xl flex-grow">
             <li className="flex gap-sm items-center">
@@ -63,7 +63,7 @@ export default function Pricing() {
             <p className="text-on-surface-variant">For businesses scaling fast.</p>
           </div>
           <div className="mb-lg">
-            <span className="font-display-lg text-display-lg">10,000/-</span>
+            <span className="font-display-lg text-display-lg">₹10,000</span>
           </div>
           <ul className="space-y-sm mb-xl flex-grow">
             <li className="flex gap-sm items-center">
