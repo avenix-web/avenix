@@ -28,14 +28,14 @@ export default function Portfolio() {
           className="group relative overflow-hidden rounded-3xl aspect-[16/10]"
         >
           <img 
-            alt="Apex Luxury Real Estate" 
+            alt="Kalinga Dental Care" 
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-            src="/portfolio_apex.png" 
+            src="/portfolio_dental.png" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-80"></div>
           <div className="absolute bottom-0 p-lg w-full">
-            <p className="text-secondary font-label-md text-label-md mb-xs">Real Estate & Development • Bhubaneswar</p>
-            <h4 className="font-headline-lg text-headline-lg">Apex Real Estate</h4>
+            <p className="text-secondary font-label-md text-label-md mb-xs">Medical & Health • Bhubaneswar</p>
+            <h4 className="font-headline-lg text-headline-lg">Kalinga Dental Care</h4>
           </div>
         </motion.div>
         
@@ -47,14 +47,14 @@ export default function Portfolio() {
           className="group relative overflow-hidden rounded-3xl aspect-[16/10]"
         >
           <img 
-            alt="Zenith Analytics SaaS" 
+            alt="WhatsApp Automation & CRM" 
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-            src="/portfolio_zenith.png" 
+            src="/portfolio_whatsapp.png" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-80"></div>
           <div className="absolute bottom-0 p-lg w-full">
-            <p className="text-secondary font-label-md text-label-md mb-xs">SaaS & Analytics • Bangalore</p>
-            <h4 className="font-headline-lg text-headline-lg">Zenith Dashboard</h4>
+            <p className="text-secondary font-label-md text-label-md mb-xs">Automation & CRM • Bangalore</p>
+            <h4 className="font-headline-lg text-headline-lg">WhatsApp Automation & CRM</h4>
           </div>
         </motion.div>
       </div>
