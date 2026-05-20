@@ -9,17 +9,17 @@ export default function PrivacyPolicy() {
   }, []);
 
   return (
-    <div className="bg-background text-on-surface selection:bg-primary/30 font-body-md min-h-screen flex flex-col">
+    <div className="relative overflow-x-hidden bg-background text-on-surface selection:bg-primary/30 font-body-md min-h-screen flex flex-col">
       <Navbar />
       
       {/* Background Orbs */}
-      <div className="aura-glow bg-primary w-[500px] h-[500px] top-[-100px] right-[-100px] fixed"></div>
+      <div className="aura-glow bg-primary w-[500px] h-[500px] top-[-100px] right-[-100px]"></div>
       
       <main className="flex-grow pt-32 pb-xl px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto w-full relative z-10">
-        <div className="glass-card rounded-[40px] p-lg md:p-xl space-y-lg">
+        <div className="glass-card rounded-[40px] p-md md:p-xl space-y-lg">
           
           <div className="border-b border-outline-variant/30 pb-lg mb-lg">
-            <h1 className="font-display-sm text-display-sm mb-sm text-primary">Privacy Policy</h1>
+            <h1 className="font-display-sm text-headline-lg-mobile md:text-display-sm mb-sm text-primary">Privacy Policy</h1>
             <p className="text-on-surface-variant font-label-md">Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
           </div>
 
